@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="" alt="" class="logo"> -->
+                 <h1 class="name_heading"><span class="hea">Vikash</span> Mahato</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Achievements</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" style="cursor: pointer;"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Web</span> and <span>Software</span> Developer</p>
+                <h1>Hi,I'm <span>Vikash</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about----------- -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="VIKASH_PROFILE.jpg" alt=""
+                    height="350px"
+                    width="200px"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a final-year BTech student specializing in Computer Science, driven by a passion for technology and innovation. I am actively seeking opportunities that allow me to gain real-world industry experience, strengthen my technical and problem-solving skills, and work on meaningful projects that create value. I thrive in collaborative team environments and believe in continuous learning to stay updated with evolving technologies. My goal is to contribute to dynamic teams where I can grow as a software developer while making a positive impact through dedication, creativity, and a strong work ethic.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('programming')">Programming Languages</p>
+                        <p class="tab-link " onclick="opentab('skills')">Technical Skills</p>
+                        <p class="tab-link" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="programming"> 
+                        <ul>
+                            <li><span>C++</span><br>Strong Command</li>
+                            <li><span>JavaScript</span><br>Intermediate</li>
+                            <li><span>Java</span><br>Intermediate</li>
+                            <li><span>SQL</span><br>Intermediate</li>
+                            <li><span>Python</span><br>Familiar</li>
+                            <!-- <li><span>Fronted Developer</span><br>Designing Web/App interface</li>
+                            <li><span>DSA</span><br>Problem Solving</li>
+                            <li><span>SQL</span><br>For Managing Data</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-content " id="skills"> 
+                        <ul>
+                            <li><span>Web Technologies</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Databases</span><br>SQL</li>
+                            <li><span>Tools and Platforms</span><br>Git, GitHub, VS Code</li>
+                            <li><span>Core Skills</span><br>Data Structures & Algorithms, problem-solving, OOPS, DBMS, Computer Networks</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Projects">
+                        <ul>
+                            <li><span>Portfolio Website </span><br>•	Designed and developed a fully responsive personal portfolio website using HTML, CSS, and JavaScript, featuring interactive UI components, mobile-friendly layouts, and optimized performance for cross-browser compatibility.</li>
+                            <li><span>Simon Game </span><br>•	Designed and developed an interactive Simon Game using HTML, CSS, and JavaScript, implementing game logic, sound effects, and animations to enhance user engagement and improve problem-solving skills.</li>
+                            <li><span>Tic Tac Toe Game </span><br>•	Designed and developed an interactive Tic Tac Toe game using HTML, CSS, and JavaScript, incorporating dynamic gameplay logic, responsive design, and smooth user interactions for an engaging experience.</li>
+                            <li><span>Amazon Clone  </span><br>• Designed and developed a responsive Amazon clone homepage using HTML and CSS.</li>
+                            <li><span>Netflix Clone Page  </span><br>Designed and developed a responsive Netflix clone homepage using HTML and CSS.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><p>Passing year-2026</p>Bengal Institute of technology</li>
+                            <li><span>Higher-Secondary</span><p>Passing year-2021</p>Jogamaya Memorial Institute</li>
+                            <li><span>Higher-Secondary</span><p>Passing year-20</p>Jogamaya Memorial Institute</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------services or My Achievements & Milestones----------- -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="sub-title">My Achievements & Milestones</div>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fas fa-code"></i> -->
+                    <h2>C++ With DSA</h2>
+                    <p>Actively building my skills in C++ and Data Structures & Algorithms through the Physics Wallah course. Learning core concepts like arrays, linked lists, stacks, queues, trees, heaps, and graphs while practicing problem-solving on coding platforms. This course is helping me strengthen my logic, improve coding efficiency, and develop a strong foundation for competitive programming and placement preparation. I am applying concepts in small projects and challenges to grow from intermediate to advanced level step by step.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <!-- <i class="fas fa-crop-alt"></i> -->
+                    <h2>Git & GitHub</h2>
+                    <p>Successfully completed the Git & GitHub Bootcamp, learning repository creation, commits, branching, merging, and conflict resolution. Practiced GitHub workflows, pull requests, and issue tracking. Gained skills to manage projects efficiently and collaborate effectively, enhancing readiness for real-world software development and open-source contributions.
+                    <br><a href="#">Learn More</a>
+                </div>
+                <!-- <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum quo laudantium saepe sed deserunt maiores illo iure harum, molestiae architecto fugit nisi, incidunt quibusdam!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------portfolio or My Projects----------- -->
+     <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="PW.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>•	Designed and developed a fully responsive personal portfolio website using HTML, CSS, and JavaScript, featuring interactive UI components, mobile-friendly layouts, and optimized performance for cross-browser compatibility.
+
+                        </p>
+                        <a href="https://github.com/mahatovikash03?tab=repositories"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Simon_Game.jpg" alt="">
+                    <div class="layer">
+                        <h3>Simon Game</h3>
+                        <p>•	Designed and developed an interactive Simon Game using HTML, CSS, and JavaScript, implementing game logic, sound effects, and animations to enhance user engagement and improve problem-solving skills.
+
+                        </p>
+                        <a href="https://mahatovikash03.github.io/Simon_Game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Tic Tac game.png" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>•	Designed and developed an interactive Tic Tac Toe game using HTML, CSS, and JavaScript, incorporating dynamic gameplay logic, responsive design, and smooth user interactions for an engaging experience.
+
+                        </p>
+                        <a href="https://mahatovikash03.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+
+<!-- ------------------contact------------- -->
+
+     <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" style="color: white;" class="mail">vikku6210@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rajrohan.mahato"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/mahatovikash03?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/vika.sh3699/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vikash-mahato-a705b82b8/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Vikash_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required class="name">
+                        <input type="email" name="Email" placeholder="Your Email" required class="email">
+                        <textarea name="Message" rows="6" placeholder="Your Message" class="message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Vikash Website.</p>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyzPufbKWF9V3r6Nz0BOF_1fFlxNHVzYvo1wJONCvO7HxEulwLOn04OY-XYXB9gcU18Ng/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
